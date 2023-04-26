@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+font-family: 'Source Serif Pro', serif;
+margin: 0px
+}
+h1 {
+    color:grey
+}
+:root{
+    --primary-color: #d8b4fe;
+    --secondary-color: #e9d5ff;
+    --tertiary-color: #f3e8ff;
+}
+.navigation{
+    background-color: var(--primary-color);     
+    padding: 0.2rem;
+    color:grey;
+    border-top-right-radius: 1rem;
+}
+
+.links{
+    list-style: none;
+    text-align: right;
+    text-decoration: none;
+    
+}
+.links .inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+    text-decoration: none;
+}
+.header{
+text-align: center;
+}
+.hero-img{
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+.container{
+    text-align: center;
+    background-color:var(--secondary-color) ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color:grey
+   
+
+}
+.container-second{
+    background-color: var(--tertiary-color);
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+  color:grey
+   
+}
+.button{
+    background-color:var(--primary-color);
+    border-radius: 20rem;
+    color:white;
+    text-decoration: none;
+    border-color:white
+}
+.footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+}
+.non-bullets .inline {
+    display: inline;
+    list-style: none;
+    padding: 1rem;
+}
+.items{
+    text-decoration: none;
+   
+}
+
+
+
+
+
